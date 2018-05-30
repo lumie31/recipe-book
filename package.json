@@ -1,0 +1,29 @@
+{
+  "name": "recipe-book",
+  "version": "1.0.0",
+  "description": "A simple and customizable recipe book",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumie31/recipe-book.git"
+  },
+  "author": "Olumide",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lumie31/recipe-book/issues"
+  },
+  "homepage": "https://github.com/lumie31/recipe-book#readme",
+  "dependencies": {
+    "body-paresr": "*",
+    "consolidate": "*",
+    "dust": "*",
+    "dustjs-helpers": "*",
+    "dustjs-linkedin": "*",
+    "express": "*",
+    "path": "^0.12.7",
+    "pg": "*"
+  }
+}
