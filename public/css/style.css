@@ -1,0 +1,13 @@
+body {
+  margin-top: 30px;
+  background: #cbdcdf;
+}
+
+button.right {
+  float: right;
+}
+
+hr.hr {
+  width: 50%;
+  border: 1px solid grey
+}
