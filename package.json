@@ -23,6 +23,8 @@
     "dustjs-helpers": "*",
     "dustjs-linkedin": "*",
     "express": "*",
+    "express-dust": "^0.1.5",
+    "nodemon": "^1.17.5",
     "path": "^0.12.7",
     "pg": "*"
   }
