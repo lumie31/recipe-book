@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/lumie31/recipe-book/issues"
   },
-  "homepage": "https://github.com/lumie31/recipe-book#readme",
+  "homepage": "https://lumie31.github.io/recipe-book",
   "dependencies": {
     "body-paresr": "*",
     "consolidate": "*",
