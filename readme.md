@@ -7,6 +7,7 @@ An application that allows you create beautiful recipes and share it with the wo
 - Bootstrap
 - NodeJS (express)
 - Dust (Templating engine)
+- PostgreSQL
 
 ## What's next
 An updated version of this is ongoing and would be made public soon enough... Cheers!!!
