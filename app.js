@@ -17,8 +17,11 @@ const config = {
 
 const pool = new pg.Pool(config);
 
+app.set('port', (process.env.PORT || 3000));
+
 //Assign Dust engine to .dust files
 app.engine("dust", cons.dust);
+
 
 //Set default ext .dust
 app.set("view engine", "dust");
@@ -86,6 +89,6 @@ app.post('/edit', (req, res) => {
 })
 
 //Server
-app.listen(3000, function() {
-  console.log("Server stated on port 3000");
+app.listen(port, function() {
+  console.log(`Server stated on port ${port}`);
 });
